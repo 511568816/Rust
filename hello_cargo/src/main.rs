@@ -1,7 +1,6 @@
 fn main() {
-    if 1 < 0 {
-        println!("233");
-    } else {
-        println!("233333")
-    }
+    let mut x = String::from("hello, ");
+    let word = &x[0..2];
+    x.clear();
+    println!("{}", x);
 }
